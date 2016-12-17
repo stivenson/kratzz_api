@@ -6,6 +6,8 @@ from django.contrib import admin
 
 ##from applications.core import views
 
+admin.autodiscover()
+
 urlpatterns = [
     ##url(r'^$', views.home),
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS

@@ -50,6 +50,18 @@ class User(AbstractBaseUser, PermissionsMixin):
         unique=True,
         verbose_name=_(u'username')
     )
+    first_name = models.CharField(
+        max_length=30,
+        verbose_name=_(u'first name'),
+        blank=True,
+        null=True
+    )
+    last_name = models.CharField(
+        max_length=30,
+        verbose_name=_(u'last name'),
+        blank=True,
+        null=True
+    )
     email = models.EmailField(
         max_length=60,
         unique=True,
