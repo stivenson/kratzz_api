@@ -19,11 +19,10 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
-pizdely/pizdely/settings/local.py
-pizdely/pizdely/__pycache__/
-pizdely/pizdely/__settings.py
-pizdely/staticfiles
-pizdely/static
-pizdely/media
-pizdely/pizdely.sock
+kratzz/kratzz/settings/
+kratzz/kratzz/__pycache__/
+kratzzy/staticfiles
+kratzz/static
+kratzz/media
+kratzz/kratzz.sock
 .idea/
